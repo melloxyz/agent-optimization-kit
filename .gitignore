@@ -1,0 +1,37 @@
+# Local private data
+.env
+.env.*
+!.env.example
+*.credentials.json
+auth.json
+oauth_creds.json
+*.secret
+*.key
+*.pem
+*.p12
+*.pfx
+**/STATUS.md
+**/transcripts/
+**/sessions/
+**/checkpoints/
+**/agent-optimization-kit-data/
+**/.agent-optimization-kit/
+**/.agent-kit/
+*.agent-kit.*.bak
+*.agent-kit.tmp
+*.log
+
+# Python and tests
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Editor and operating system
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
